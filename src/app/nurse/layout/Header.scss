@@ -1,0 +1,284 @@
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .header_section_nurse{
+    z-index: 99;
+    background-color: #35434E;
+    height: 102px;
+    width: 100%;
+  }
+  .header_section{   z-index: 99;
+    background-color: #35434E;
+    height: 102px;
+    width: 100%;
+}
+@media only screen and(min-width:1171px){
+    .header_section .desktop_header{
+        display: block;
+    }
+    .header_section .mobile_header{
+        display: none;
+    }
+}
+@media only screen and (max-width:1170px){
+    .header_section .desktop_header{
+        display: none;
+    }
+    .header_section .mobile_header{
+        display: block;
+    }
+    .header_section{
+        // padding: 15px 0;
+        -webkit-transition: all 0.1s ease 0s;
+        -o-transition: all 0.1s ease 0s;
+        transition: all 0.1s ease 0s;
+        // position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        z-index: 9;
+        background: #35434E;
+        // border-bottom: 1px solid #e8eef1;
+    }
+    .flex-middle {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
+    }
+    .btn-menu-account {
+        font-size: 22px;
+    }
+    
+    .btn-showmenu {
+        display: inline-block;
+        line-height: 1;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        padding: 8px;
+        font-size: 20px;
+    }
+   
+}
+.header_section .btn-theme {
+    color: #fff;
+    background-color: #11b719;
+    border-color: #11b719;
+}
+.elementor-355 .elementor-element.elementor-element-651b10d img {
+    max-width: 170px;
+}
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+// .header_section .row{
+//     height: 100%;
+// }
+.header_section .navbar li{
+    padding:0px 15px;
+}
+.header_section .navbar-right li{
+    padding:0px 5px;
+}
+.header_section .navbar .normal-nav a{
+        font-size: 14px;
+        font-weight: 500;
+        position: relative;
+        text-transform: uppercase;
+        background: transparent !important;
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+}
+.btn-register{
+        color: #fff!important;
+        font-size: 14px;
+        font-weight: 500;
+        min-height: auto;
+        padding: 8px 15px;
+        border: none;
+        background-color: #11b719;
+        border: none;
+        text-transform: uppercase;
+        font-family: "Muli",Helvetica,Arial,sans-serif;
+        border-radius: 30px;
+}
+.btn-register>i {
+    font-size: 12px;
+    margin-right: 3px;
+    // font-family: 'themify';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-login {
+    color: #FFF!important;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    padding: 0 20px 0 22px;
+    padding: 0;
+    border: none;
+    color: #657582;
+    text-transform: uppercase;
+    font-family: "Muli",Helvetica,Arial,sans-serif;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background: transparent;
+}
+.btn-login i{
+    font-size: 12px;
+    padding-right: 6px;
+}
+.btn-register:hover {
+    background-color: #0fa016;
+}
+
+// profile
+
+.header_section_nurse .mobile_header{
+    display: block;
+}
+.header_section_nurse{
+    // padding: 15px 0;
+    -webkit-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+    // position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:auto;
+    z-index: 9;
+    background: #35434E;
+    // background: #fff;
+    // border-bottom: 1px solid #e8eef1;
+}
+.header_section_nurse .flex-middle {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+.header_section_nurse .btn-menu-account {
+    font-size: 22px;
+}
+
+.header_section_nurse .btn-showmenu {
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 8px;
+    font-size: 20px;
+}
+.header_section_nurse .navbar li{
+    padding:0px 15px;
+}
+.header_section_nurse .navbar-right li{
+    padding:0px 5px;
+}
+.header_section_nurse .navbar .normal-nav a{
+        font-size: 14px;
+        font-weight: 500;
+        position: relative;
+        text-transform: uppercase;
+        background: transparent !important;
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+}
+.header_section_nurse .btn-theme {
+    color: #fff;
+    background-color: #11b719;
+    border-color: #11b719;
+}
+.header_section_nurse .logo img{
+    max-width: 300px;
+    width: 100%;
+}

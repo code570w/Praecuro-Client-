@@ -1,0 +1,158 @@
+.job-detail-header.v1{
+    background-image:url(https://www.demoapus-wp1.com/workio/wp-content/uploads/2020/02/breadcrumb-default.jpg)
+}
+
+.job-detail-header, .candidate-detail-header, .employer-detail-header {
+    background-position: 0 0;
+    background-color: #242d3e;
+    position: relative;
+    background-size: cover;
+    padding: 30px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+@media only screen and (min-width: 1168px)
+{.job-detail-header, .candidate-detail-header, .employer-detail-header {
+    padding: 280px 0 30px 0;
+}}
+.job-detail-header:before, .candidate-detail-header:before, .employer-detail-header:before {
+    content: "";
+    top: 0;
+    background-color: rgba(36, 45, 62, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+@media (min-width: 768px)
+{.flex-bottom-sm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    align-items: flex-end;
+}}
+.job-detail-header .job-detail-thumbnail, .candidate-detail-header .job-detail-thumbnail, .employer-detail-header .job-detail-thumbnail {
+    position: relative;
+    margin-right: 15px;
+}
+@media (min-width: 1200px)
+{.job-detail-header .job-detail-thumbnail a, .candidate-detail-header .job-detail-thumbnail a, .employer-detail-header .job-detail-thumbnail a {
+    width: 130px;
+    height: 130px;
+}
+.job-detail-header .job-detail-thumbnail, .candidate-detail-header .job-detail-thumbnail, .employer-detail-header .job-detail-thumbnail {
+    margin-right: 25px;
+}
+}
+.job-detail-header .job-detail-thumbnail a, .candidate-detail-header .job-detail-thumbnail a, .employer-detail-header .job-detail-thumbnail a {
+    display: block;
+    padding: 25px;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.employer-logo img {
+    max-width: 100%;
+    width: 180px;
+    height: auto;
+}
+.job-detail-header .inner-info, .candidate-detail-header .inner-info, .employer-detail-header .inner-info {
+    color: #fff;
+}
+.job-detail-header .title-wrapper, .candidate-detail-header .title-wrapper, .employer-detail-header .title-wrapper {
+    position: relative;
+    margin-bottom: 5px;
+}
+.job-detail-header .title-wrapper > *:first-child, .candidate-detail-header .title-wrapper > *:first-child, .employer-detail-header .title-wrapper>*:first-child {
+    margin-left: 0px;
+}
+.job-detail-header .title-wrapper > *:first-child, .candidate-detail-header .title-wrapper > *:first-child, .employer-detail-header .title-wrapper>*:first-child {
+    margin-left: 0px;
+}
+@media (min-width: 1200px)
+{.job-detail-header .inner-info .job-title, .candidate-detail-header .inner-info .job-title, .employer-detail-header .inner-info .job-title {
+    font-size: 28px;
+}}
+.job-detail-header .inner-info .job-title, .candidate-detail-header .inner-info .job-title, .employer-detail-header .inner-info .job-title {
+    color: #fff;
+    font-size: 22px;
+}
+.job-detail-header .title-wrapper > *, .candidate-detail-header .title-wrapper > *, .employer-detail-header .title-wrapper>* {
+    margin-left: 5px;
+}
+.job-title {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+.title-wrapper>* {
+    display: inline;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.job-detail-header .featured, .candidate-detail-header .featured, .employer-detail-header .featured {
+    color: #fff;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #ff8b00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+.job-location i {
+    display: inline-block;
+    margin-right: 5px;
+}
+.job-detail-header .inner-info a:not([class]), .candidate-detail-header .inner-info a:not([class]), .employer-detail-header .inner-info a:not([class]) {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 768px)
+{.job-detail-header .job-detail-buttons, .candidate-detail-header .job-detail-buttons, .employer-detail-header .job-detail-buttons {
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: end;
+-ms-flex-pack: end;
+-webkit-justify-content: flex-end;
+-moz-justify-content: flex-end;
+justify-content: flex-end;
+}}
+.job-detail-header .job-detail-buttons, .candidate-detail-header .job-detail-buttons, .employer-detail-header .job-detail-buttons {
+    color: #fff;
+}
+.job-detail-buttons {
+    position: relative;
+}

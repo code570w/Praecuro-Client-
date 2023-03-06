@@ -1,0 +1,134 @@
+@media (min-width: 768px){
+.comment-list div.avatar {
+    padding-right: 30px;
+    width: 100px;
+}}
+.comment-list div.avatar {
+    width: 80px;
+    padding-right: 15px;
+    float: left;
+}
+.the-comment {
+    /* margin-bottom: 0; */
+    /* border-bottom: 0; */
+    padding-bottom: 0;
+}
+@media (min-width: 992px){
+.the-comment {
+    padding: 0 0 25px;
+    margin: 0 0 25px;
+}}
+.the-comment {
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+    border-bottom: 1px solid #dee6ed;
+}
+.comment-list div.avatar img {
+    margin: 0;
+}
+.comment-list img.avatar {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.comment-list .comment-box {
+    overflow: hidden;
+}
+@media (min-width: 768px){
+.flex-middle-sm {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}}
+.comment-list .comment-text {
+    margin-top: 12px;
+}
+.comment-list .comment-text p:last-child {
+    margin: 0;
+}
+.comment-list .comment-author {
+    font-size: 14px;
+}
+@media (min-width: 768px)
+{.flex-middle-sm .ali-right {
+    margin-left: auto;
+}
+.star-rating .review-avg {
+    margin-right: 10px;
+}
+}
+.clear {
+    clear: both;
+}
+.review-avg {
+    text-align: center;
+    line-height: 30px;
+    min-width: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #febe42;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.star-rating>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+.star-rating>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+.review-stars-rated {
+    position: relative;
+    overflow: hidden;
+    width: 96px;
+    line-height: 1;
+    text-align: left;
+}
+.review-stars-rated .review-stars {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #e2e2e2;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.employer-detail-description > ol, .employer-detail-description ul, .job-detail-description > ol, .job-detail-description ul {
+    padding: 0;
+    list-style-position: inside;
+    margin: 0 0 20px;
+}
+
+.review-stars-rated .review-stars li {
+    display: inline-block;
+}
+.review-stars-rated .review-stars.filled {
+    color: #febe42;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.review-stars-rated .review-stars {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #e2e2e2;
+    white-space: nowrap;
+    overflow: hidden;
+}
